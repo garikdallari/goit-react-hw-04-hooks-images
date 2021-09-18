@@ -35,7 +35,7 @@ function App() {
           );
         }
         setReqStatus("resolved");
-        setGallery((prev) => [...prev, ...images]);
+        setGallery(images);
       } catch (error) {
         console.log(error);
       }
